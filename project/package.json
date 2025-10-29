@@ -1,0 +1,19 @@
+{
+  "name": "local-deps-demo",
+  "version": "1.0.0",
+  "description": "Demo project that uses both public npm packages and local private dependencies (one intentionally vulnerable) for testing",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "axios": "^1.4.0",
+    "@aadilkhandev/vulnerable-dep": "file:../private-deps/vulnerable-dep",
+    "misconfig-dep": "file:../private-deps/misconfig-dep"
+  }
+}
