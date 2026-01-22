@@ -11,7 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "axios": "^1.4.0",
     "@aadilkhandev/vulnerable-dep": "file:../private-deps/vulnerable-dep",
     "misconfig-dep": "file:../private-deps/misconfig-dep"
